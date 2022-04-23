@@ -17,7 +17,7 @@
 进入1#终端，执行以下命令启动节点：
 
 ```
-~$ tendermint node
+~$ tendermint node --proxy_app=kvstore
 ```
 
 按ctrl+c终止节点运行，或者在另一个终端输入如下命令：
